@@ -20,7 +20,7 @@ const Country = () => {
           <img src={countries.coatOfArms.svg} alt="" className='w-[140px]'/>
         </div>
         <div className='text-white'>
-          <div>Название: {countries.name.common}</div>
+          <div>Имя страны: {countries.name.common}</div>
           <div>Cталиция: {countries.capital.map(item => <span key={item}>{item}</span>)}</div>
           <div>Ссылка на страну: <a className='underline-offset-[3px]' href={countries.maps.googleMaps}> google maps</a></div>
           <div>Континент: {countries.continents}</div>
